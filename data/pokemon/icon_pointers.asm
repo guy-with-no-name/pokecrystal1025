@@ -257,4 +257,6 @@ IconPointers:
 	dw HoOhIcon
 	dw CelebiIcon
 	dw TreeckoIcon
+	dw GrovyleIcon
+	dw SceptileIcon
 	assert_table_length NUM_POKEMON + 1

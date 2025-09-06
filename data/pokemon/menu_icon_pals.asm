@@ -262,4 +262,6 @@ MonMenuIconPals:
 	icon_pals RED,    BROWN  ; HO_OH
 	icon_pals GREEN,  PINK   ; CELEBI
 	icon_pals GREEN,  TEAL   ; TREECKO
+	icon_pals GREEN,  TEAL   ; GROVYLE
+	icon_pals GREEN,  TEAL   ; SCEPTILE
 	assert_table_length NUM_POKEMON

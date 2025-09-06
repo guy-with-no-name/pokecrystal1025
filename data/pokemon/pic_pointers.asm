@@ -520,4 +520,8 @@ PokemonPicPointers::
 	dba CelebiBackpic
 	dba TreeckoFrontpic
 	dba TreeckoBackpic
+	dba GrovyleFrontpic
+	dba GrovyleBackpic
+	dba SceptileFrontpic
+	dba SceptileBackpic
 	assert_table_length NUM_POKEMON + 1

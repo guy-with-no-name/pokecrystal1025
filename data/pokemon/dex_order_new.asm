@@ -237,6 +237,8 @@ NewPokedexOrder:
 	dw WARTORTLE
 	dw BLASTOISE
 	dw TREECKO
+	dw GROVYLE
+	dw SCEPTILE
 	dw ARTICUNO
 	dw ZAPDOS
 	dw MOLTRES

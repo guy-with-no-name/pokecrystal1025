@@ -79,6 +79,7 @@ AlphabeticalPokedexOrder:
 	dw GRANBULL
 	dw GRAVELER
 	dw GRIMER
+	dw GROVYLE
 	dw GROWLITHE
 	dw GYARADOS
 	dw HAUNTER
@@ -189,6 +190,7 @@ AlphabeticalPokedexOrder:
 	dw RHYHORN
 	dw SANDSHREW
 	dw SANDSLASH
+	dw SCEPTILE
 	dw SCIZOR
 	dw SCYTHER
 	dw SEADRA

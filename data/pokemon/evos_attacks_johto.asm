@@ -102,6 +102,8 @@ EvosAttacksPointers2::
 	dw HoOhEvosAttacks
 	dw CelebiEvosAttacks
 	dw TreeckoEvosAttacks
+	dw GrovyleEvosAttacks
+	dw SceptileEvosAttacks
 .IndirectEnd::
 
 ChikoritaEvosAttacks:
@@ -1406,6 +1408,7 @@ CelebiEvosAttacks:
 	db 0 ; no more level-up moves
 
 TreeckoEvosAttacks:
+	dbbw EVOLVE_LEVEL, 16, GROVYLE
 	db 0 ; no more evolutions
 	dbw 1, SCRATCH
 	dbw 1, GROWL
@@ -1417,4 +1420,37 @@ TreeckoEvosAttacks:
 	dbw 36, LIGHT_SCREEN
 	dbw 43, SAFEGUARD
 	dbw 50, SOLARBEAM
+	db 0 ; no more level-up moves
+
+GrovyleEvosAttacks:
+	dbbw EVOLVE_LEVEL, 36, SCEPTILE
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	dbw 1, GROWL
+	dbw 1, RAZOR_LEAF
+	dbw 1, REFLECT
+	dbw 8, RAZOR_LEAF
+	dbw 12, REFLECT
+	dbw 15, POISONPOWDER
+	dbw 23, SYNTHESIS
+	dbw 31, BODY_SLAM
+	dbw 39, LIGHT_SCREEN
+	dbw 47, SAFEGUARD
+	dbw 55, SOLARBEAM
+	db 0 ; no more level-up moves
+
+SceptileEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	dbw 1, GROWL
+	dbw 1, RAZOR_LEAF
+	dbw 1, REFLECT
+	dbw 8, RAZOR_LEAF
+	dbw 12, REFLECT
+	dbw 15, POISONPOWDER
+	dbw 23, SYNTHESIS
+	dbw 31, BODY_SLAM
+	dbw 41, LIGHT_SCREEN
+	dbw 51, SAFEGUARD
+	dbw 61, SOLARBEAM
 	db 0 ; no more level-up moves
