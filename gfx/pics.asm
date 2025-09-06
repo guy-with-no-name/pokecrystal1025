@@ -711,5 +711,5 @@ UnownRBackpic:       INCBIN "gfx/pokemon/unown_r/back.2bpp.lz"
 
 SECTION "Pics 19", ROMX
 
-TreeckoFrontpic:     INCBIN "gfx/pokemon/treecko/front.2bpp.lz"
+TreeckoFrontpic:     INCBIN "gfx/pokemon/treecko/front.animated.2bpp.lz"
 TreeckoBackpic:      INCBIN "gfx/pokemon/treecko/back.2bpp.lz"
