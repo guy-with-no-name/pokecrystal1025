@@ -1,4 +1,15 @@
-# 16-bit index expansion for Crystal
+# Pokémon Crystal 1025
+
+This project aims to add all 1025 Pokémon to Pokémon Crystal
+
+### Sprite credits:
+
+Egg3ggEgg (Gen 3)
+
+
+---
+
+## 16-bit index expansion for Crystal
 
 This repository is a modernized and rebased version of [AX6](https://github.com/aaaaaa123456789)'s work found at https://github.com/aaaaaa123456789/pokecrystal16.
 It includes additional features such as the new `expand-item-ID` branch and the `newbox`/`item-newbox` branches.
@@ -25,7 +36,7 @@ Once there, navigate to the `#reaction-roles` channel and react to pokecrystal16
 
 For further documentation, check out the [wiki].
 
-## Branches
+### Branches
 
 Last PC16 rebase: **2025-01-22**
 
@@ -55,7 +66,7 @@ Last PC16 rebase: **2025-01-22**
 To view the differences between any two branches (or any two commits in the repository), you can use GitHub's [tree
 comparison][compare] tool.
 
-## FAQs
+### FAQs
 
 **Q1:** Will this engine include \<insert additional feature here\>?  
 **A1:** Unless the feature is specifically related to 16-bit indexing (or otherwise extending the range of possible
