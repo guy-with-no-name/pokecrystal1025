@@ -260,4 +260,10 @@ PokemonCries::
 	mon_cry CRY_BULBASAUR,   128,  129 ; TREECKO
 	mon_cry CRY_BULBASAUR,    32,  256 ; GROVYLE
 	mon_cry CRY_BULBASAUR,     0,  320 ; SCEPTILE
+	mon_cry CRY_CHARMANDER,   96,  192 ; TORCHIC
+	mon_cry CRY_CHARMANDER,   32,  192 ; COMBUSKEN
+	mon_cry CRY_CHARMANDER,    0,  256 ; BLAZIKEN
+	mon_cry CRY_SQUIRTLE,     96,  192 ; MUDKIP
+	mon_cry CRY_SQUIRTLE,     32,  192 ; MARSHTOMP
+	mon_cry CRY_BLASTOISE,     0,  256 ; SWAMPERT
 	assert_table_length NUM_POKEMON

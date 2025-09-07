@@ -104,6 +104,12 @@ EggMovePointers2::
 	dw TreeckoEggMoves
 	dw NoEggMoves2
 	dw NoEggMoves2
+	dw TorchicEggMoves
+	dw NoEggMoves2
+	dw NoEggMoves2
+	dw MudkipEggMoves
+	dw NoEggMoves2
+	dw NoEggMoves2
 .IndirectEnd::
 
 ChikoritaEggMoves:
@@ -477,5 +483,23 @@ TreeckoEggMoves:
 	dw ANCIENTPOWER
 	dw FLAIL
 	dw SWORDS_DANCE
+	
+TorchicEggMoves:
+	dw FURY_SWIPES
+	dw QUICK_ATTACK
+	dw REVERSAL
+	dw THRASH
+	dw FORESIGHT
+	dw SUBMISSION
+	dw -1 ; end
+
+MudkipEggMoves:
+	dw CRUNCH
+	dw THRASH
+	dw HYDRO_PUMP
+	dw ANCIENTPOWER
+	dw RAZOR_WIND
+	dw ROCK_SLIDE
+	dw -1 ; end
 NoEggMoves2:
 	dw -1 ; end

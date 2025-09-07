@@ -259,4 +259,10 @@ IconPointers:
 	dw TreeckoIcon
 	dw GrovyleIcon
 	dw SceptileIcon
+	dw TorchicIcon
+	dw CombuskenIcon
+	dw BlazikenIcon
+	dw MudkipIcon
+	dw MarshtompIcon
+	dw SwampertIcon
 	assert_table_length NUM_POKEMON + 1

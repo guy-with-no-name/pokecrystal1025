@@ -274,6 +274,12 @@ DEF JOHTO_POKEMON EQU const_value
 	const TREECKO    ; fc
 	const GROVYLE    ; fd
 	const SCEPTILE   ; fe
+	const TORCHIC    ; ff
+	const COMBUSKEN  ; 100
+	const BLAZIKEN   ; 101
+	const MUDKIP     ; 102
+	const MARSHTOMP  ; 103
+	const SWAMPERT   ; 104
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

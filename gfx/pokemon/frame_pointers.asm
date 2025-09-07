@@ -254,4 +254,10 @@ FramesPointers:
 	dba TreeckoFrames
 	dba GrovyleFrames
 	dba SceptileFrames
+	dba TorchicFrames
+	dba CombuskenFrames
+	dba BlazikenFrames
+	dba MudkipFrames
+	dba MarshtompFrames
+	dba SwampertFrames
 	assert_table_length NUM_POKEMON
