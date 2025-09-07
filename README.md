@@ -12,6 +12,8 @@ This project aims to add all 1025 Pokémon to Pokémon Crystal
 
 Egg3ggEgg (Gen 3)
 
+MegamanOmega and EeVeeEe1999 on DeviantArt (Gen 3 menu sprites)
+
 
 ---
 
