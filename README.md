@@ -2,6 +2,12 @@
 
 This project aims to add all 1025 Pokémon to Pokémon Crystal
 
+### Features added as of now:
+
+* Pokémon up to #254
+* Physical/Special split
+* Fairy type
+
 ### Sprite credits:
 
 Egg3ggEgg (Gen 3)
