@@ -280,6 +280,8 @@ DEF JOHTO_POKEMON EQU const_value
 	const MUDKIP     ; 102
 	const MARSHTOMP  ; 103
 	const SWAMPERT   ; 104
+	const POOCHYENA  ; 105
+	const MIGHTYENA  ; 106
 DEF NUM_POKEMON EQU const_value - 1
 
 DEF EGG EQU -3

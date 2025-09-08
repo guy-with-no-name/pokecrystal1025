@@ -265,4 +265,6 @@ IconPointers:
 	dw MudkipIcon
 	dw MarshtompIcon
 	dw SwampertIcon
+	dw PoochyenaIcon
+	dw MightyenaIcon
 	assert_table_length NUM_POKEMON + 1

@@ -110,6 +110,8 @@ EvosAttacksPointers2::
 	dw MudkipEvosAttacks
 	dw MarshtompEvosAttacks
 	dw SwampertEvosAttacks
+	dw PoochyenaEvosAttacks
+	dw MightyenaEvosAttacks
 .IndirectEnd::
 
 ChikoritaEvosAttacks:
@@ -1544,4 +1546,29 @@ SwampertEvosAttacks:
 	dbw 38, SLASH
 	dbw 47, SCREECH
 	dbw 58, HYDRO_PUMP
+	db 0 ; no more level-up moves
+	
+PoochyenaEvosAttacks:
+	dbbw EVOLVE_LEVEL, 18, FURRET
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	dbw 5, DEFENSE_CURL
+	dbw 11, QUICK_ATTACK
+	dbw 17, FURY_SWIPES
+	dbw 25, SLAM
+	dbw 33, REST
+	dbw 41, AMNESIA
+	db 0 ; no more level-up moves
+
+MightyenaEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, SCRATCH
+	dbw 1, DEFENSE_CURL
+	dbw 1, QUICK_ATTACK
+	dbw 5, DEFENSE_CURL
+	dbw 11, QUICK_ATTACK
+	dbw 18, FURY_SWIPES
+	dbw 28, SLAM
+	dbw 38, REST
+	dbw 48, AMNESIA
 	db 0 ; no more level-up moves

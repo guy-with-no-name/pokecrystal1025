@@ -55,3 +55,5 @@ used_space.png
 
 # macos files
 .DS_STORE
+gfx/icons/palfix.py
+gfx/footprints/palfix.py

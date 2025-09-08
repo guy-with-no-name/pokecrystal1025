@@ -110,6 +110,8 @@ EggMovePointers2::
 	dw MudkipEggMoves
 	dw NoEggMoves2
 	dw NoEggMoves2
+	dw PoochyenaEggMoves
+	dw NoEggMoves2
 .IndirectEnd::
 
 ChikoritaEggMoves:
@@ -500,6 +502,14 @@ MudkipEggMoves:
 	dw ANCIENTPOWER
 	dw RAZOR_WIND
 	dw ROCK_SLIDE
+	dw -1 ; end
+	
+PoochyenaEggMoves:
+	dw DOUBLE_EDGE
+	dw PURSUIT
+	dw SLASH
+	dw FOCUS_ENERGY
+	dw REVERSAL
 	dw -1 ; end
 NoEggMoves2:
 	dw -1 ; end

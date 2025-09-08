@@ -22,6 +22,8 @@ NewPokedexOrder:
 	dw RATICATE
 	dw SENTRET
 	dw FURRET
+	dw POOCHYENA
+	dw MIGHTYENA
 	dw PICHU
 	dw PIKACHU
 	dw RAICHU

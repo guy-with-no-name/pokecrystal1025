@@ -10,9 +10,9 @@ This project aims to add all 1025 Pokémon to Pokémon Crystal
 
 ### Sprite credits:
 
-Egg3ggEgg (Gen 3)
-
-MegamanOmega and EeVeeEe1999 on DeviantArt (Gen 3 menu sprites)
+Gen 3 front sprites by Egg3ggEgg
+Gen 3 back sprites by Nuuk/@nuukiie
+Gen 3 menu sprites by MegamanOmega and EeVeeEe1999 on DeviantArt
 
 
 ---

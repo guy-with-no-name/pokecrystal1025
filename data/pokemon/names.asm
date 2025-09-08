@@ -264,4 +264,6 @@ PokemonNames::
 	db "MUDKIP@@@@"
 	db "MARSHTOMP@"
 	db "SWAMPERT@@"
+	db "POOCHYENA@"
+	db "MIGHTYENA@"
 	assert_table_length NUM_POKEMON

@@ -266,4 +266,6 @@ PokemonCries::
 	mon_cry CRY_SQUIRTLE,     96,  192 ; MUDKIP
 	mon_cry CRY_SQUIRTLE,     32,  192 ; MARSHTOMP
 	mon_cry CRY_BLASTOISE,     0,  256 ; SWAMPERT
+	mon_cry CRY_RATTATA,       0,  256 ; POOCHYENA
+	mon_cry CRY_RATTATA,      32,  383 ; MIGHTYENA
 	assert_table_length NUM_POKEMON
