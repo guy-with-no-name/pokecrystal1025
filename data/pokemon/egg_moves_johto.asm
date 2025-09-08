@@ -112,6 +112,13 @@ EggMovePointers2::
 	dw NoEggMoves2
 	dw PoochyenaEggMoves
 	dw NoEggMoves2
+	dw ZigzagoonEggMoves
+	dw NoEggMoves2
+	dw WurmpleEggMoves
+	dw NoEggMoves2
+	dw NoEggMoves2
+	dw NoEggMoves2
+	dw NoEggMoves2
 .IndirectEnd::
 
 ChikoritaEggMoves:
@@ -510,6 +517,20 @@ PoochyenaEggMoves:
 	dw SLASH
 	dw FOCUS_ENERGY
 	dw REVERSAL
+	dw -1 ; end
+
+ZigzagoonEggMoves:
+	dw DOUBLE_EDGE
+	dw PURSUIT
+	dw SLASH
+	dw FOCUS_ENERGY
+	dw REVERSAL
+	dw -1 ; end
+
+WurmpleEggMoves:
+	dw PSYBEAM
+	dw BIDE
+	dw LIGHT_SCREEN
 	dw -1 ; end
 NoEggMoves2:
 	dw -1 ; end

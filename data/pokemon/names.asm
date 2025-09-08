@@ -266,4 +266,11 @@ PokemonNames::
 	db "SWAMPERT@@"
 	db "POOCHYENA@"
 	db "MIGHTYENA@"
+	db "ZIGZAGOON@"
+	db "LINOONE@@@"
+	db "WURMPLE@@@"
+	db "SILCOON@@@"
+	db "BEAUTIFLY@"
+	db "CASCOON@@@"
+	db "DUSTOX@@@@"
 	assert_table_length NUM_POKEMON

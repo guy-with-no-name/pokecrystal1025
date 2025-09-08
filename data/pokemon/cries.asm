@@ -268,4 +268,11 @@ PokemonCries::
 	mon_cry CRY_BLASTOISE,     0,  256 ; SWAMPERT
 	mon_cry CRY_RATTATA,       0,  256 ; POOCHYENA
 	mon_cry CRY_RATTATA,      32,  383 ; MIGHTYENA
+	mon_cry CRY_SENTRET,     138,  184 ; ZIGZAGOON
+	mon_cry CRY_EKANS,       370,  364 ; LINOONE
+	mon_cry CRY_CATERPIE,    128,  160 ; WURMPLE
+	mon_cry CRY_METAPOD,     204,  129 ; SILCOON
+	mon_cry CRY_CATERPIE,    119,  192 ; BEAUTIFLY
+	mon_cry CRY_BLASTOISE,   255,  129 ; CASCOON
+	mon_cry CRY_BLASTOISE,    96,  256 ; DUSTOX
 	assert_table_length NUM_POKEMON

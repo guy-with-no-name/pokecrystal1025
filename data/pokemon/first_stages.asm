@@ -256,11 +256,18 @@ FirstEvoStages::
 	dw TREECKO
 	dw TREECKO
 	dw TORCHIC
-	dw TORCHIC
+	dw TORCHIC    ;100
 	dw TORCHIC
 	dw MUDKIP
 	dw MUDKIP
 	dw MUDKIP
 	dw POOCHYENA
 	dw POOCHYENA
+	dw ZIGZAGOON
+	dw ZIGZAGOON  ;108
+	dw WURMPLE
+	dw WURMPLE
+	dw WURMPLE
+	dw WURMPLE
+	dw WURMPLE
 	assert_table_length NUM_POKEMON

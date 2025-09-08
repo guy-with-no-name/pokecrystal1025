@@ -289,5 +289,12 @@ INCLUDE "data/pokemon/base_stats/marshtomp.asm"
 INCLUDE "data/pokemon/base_stats/swampert.asm"
 INCLUDE "data/pokemon/base_stats/poochyena.asm"
 INCLUDE "data/pokemon/base_stats/mightyena.asm"
+INCLUDE "data/pokemon/base_stats/zigzagoon.asm"
+INCLUDE "data/pokemon/base_stats/linoone.asm"
+INCLUDE "data/pokemon/base_stats/wurmple.asm"
+INCLUDE "data/pokemon/base_stats/silcoon.asm"
+INCLUDE "data/pokemon/base_stats/beautifly.asm"
+INCLUDE "data/pokemon/base_stats/cascoon.asm"
+INCLUDE "data/pokemon/base_stats/dustox.asm"
 
 .IndirectEnd::

@@ -112,6 +112,13 @@ EvosAttacksPointers2::
 	dw SwampertEvosAttacks
 	dw PoochyenaEvosAttacks
 	dw MightyenaEvosAttacks
+	dw ZigzagoonEvosAttacks
+	dw LinooneEvosAttacks
+	dw WurmpleEvosAttacks
+	dw SilcoonEvosAttacks
+	dw BeautiflyEvosAttacks
+	dw CascoonEvosAttacks
+	dw DustoxEvosAttacks
 .IndirectEnd::
 
 ChikoritaEvosAttacks:
@@ -1549,7 +1556,7 @@ SwampertEvosAttacks:
 	db 0 ; no more level-up moves
 	
 PoochyenaEvosAttacks:
-	dbbw EVOLVE_LEVEL, 18, FURRET
+	dbbw EVOLVE_LEVEL, 18, MIGHTYENA
 	db 0 ; no more evolutions
 	dbw 1, TACKLE
 	dbw 5, DEFENSE_CURL
@@ -1571,4 +1578,76 @@ MightyenaEvosAttacks:
 	dbw 28, SLAM
 	dbw 38, REST
 	dbw 48, AMNESIA
+	db 0 ; no more level-up moves
+	
+ZigzagoonEvosAttacks:
+	dbbw EVOLVE_LEVEL, 20, LINOONE
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	dbw 5, DEFENSE_CURL
+	dbw 11, QUICK_ATTACK
+	dbw 17, FURY_SWIPES
+	dbw 25, SLAM
+	dbw 33, REST
+	dbw 41, AMNESIA
+	db 0 ; no more level-up moves
+
+LinooneEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, SCRATCH
+	dbw 1, DEFENSE_CURL
+	dbw 1, QUICK_ATTACK
+	dbw 5, DEFENSE_CURL
+	dbw 11, QUICK_ATTACK
+	dbw 18, FURY_SWIPES
+	dbw 28, SLAM
+	dbw 38, REST
+	dbw 48, AMNESIA
+	db 0 ; no more level-up moves
+	
+WurmpleEvosAttacks:
+	dbbw EVOLVE_LEVEL, 7, SILCOON
+	db 0 ; no more evolutions
+	dbw 1, TACKLE
+	dbw 1, STRING_SHOT
+	db 0 ; no more level-up moves
+
+SilcoonEvosAttacks:
+	dbbw EVOLVE_LEVEL, 10, BEAUTIFLY
+	db 0 ; no more evolutions
+	dbw 1, HARDEN
+	dbw 7, HARDEN
+	db 0 ; no more level-up moves
+
+BeautiflyEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, CONFUSION
+	dbw 10, CONFUSION
+	dbw 13, POISONPOWDER
+	dbw 14, STUN_SPORE
+	dbw 15, SLEEP_POWDER
+	dbw 18, SUPERSONIC
+	dbw 23, WHIRLWIND
+	dbw 28, GUST
+	dbw 34, PSYBEAM
+	dbw 40, SAFEGUARD
+	db 0 ; no more level-up moves
+
+CascoonEvosAttacks:
+	dbbw EVOLVE_LEVEL, 10, DUSTOX
+	db 0 ; no more evolutions
+	dbw 1, HARDEN
+	dbw 7, HARDEN
+	db 0 ; no more level-up moves
+
+DustoxEvosAttacks:
+	db 0 ; no more evolutions
+	dbw 1, FURY_ATTACK
+	dbw 10, FURY_ATTACK
+	dbw 15, FOCUS_ENERGY
+	dbw 20, TWINEEDLE
+	dbw 25, RAGE
+	dbw 30, PURSUIT
+	dbw 35, PIN_MISSILE
+	dbw 40, AGILITY
 	db 0 ; no more level-up moves

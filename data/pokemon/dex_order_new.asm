@@ -24,6 +24,8 @@ NewPokedexOrder:
 	dw FURRET
 	dw POOCHYENA
 	dw MIGHTYENA
+	dw ZIGZAGOON
+	dw LINOONE
 	dw PICHU
 	dw PIKACHU
 	dw RAICHU
@@ -37,6 +39,11 @@ NewPokedexOrder:
 	dw LEDIAN
 	dw SPINARAK
 	dw ARIADOS
+	dw WURMPLE
+	dw SILCOON
+	dw BEAUTIFLY
+	dw CASCOON
+	dw DUSTOX
 	dw GEODUDE
 	dw GRAVELER
 	dw GOLEM

@@ -267,4 +267,11 @@ IconPointers:
 	dw SwampertIcon
 	dw PoochyenaIcon
 	dw MightyenaIcon
+	dw ZigzagoonIcon
+	dw LinooneIcon
+	dw WurmpleIcon
+	dw SilcoonIcon
+	dw BeautiflyIcon
+	dw CascoonIcon
+	dw DustoxIcon
 	assert_table_length NUM_POKEMON + 1

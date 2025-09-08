@@ -268,9 +268,20 @@ GrovylePokedexEntry::    INCLUDE "data/pokemon/dex_entries/grovyle.asm"
 SceptilePokedexEntry::   INCLUDE "data/pokemon/dex_entries/sceptile.asm"
 TorchicPokedexEntry::    INCLUDE "data/pokemon/dex_entries/torchic.asm"
 CombuskenPokedexEntry::  INCLUDE "data/pokemon/dex_entries/combusken.asm"
+
+
+SECTION "Pokedex Entries 257-320", ROMX
+
 BlazikenPokedexEntry::   INCLUDE "data/pokemon/dex_entries/blaziken.asm"
 MudkipPokedexEntry::     INCLUDE "data/pokemon/dex_entries/mudkip.asm"
 MarshtompPokedexEntry::  INCLUDE "data/pokemon/dex_entries/marshtomp.asm"
 SwampertPokedexEntry::   INCLUDE "data/pokemon/dex_entries/swampert.asm"
 PoochyenaPokedexEntry::  INCLUDE "data/pokemon/dex_entries/poochyena.asm"
 MightyenaPokedexEntry::  INCLUDE "data/pokemon/dex_entries/mightyena.asm"
+ZigzagoonPokedexEntry::  INCLUDE "data/pokemon/dex_entries/zigzagoon.asm"
+LinoonePokedexEntry::    INCLUDE "data/pokemon/dex_entries/linoone.asm"
+WurmplePokedexEntry::    INCLUDE "data/pokemon/dex_entries/wurmple.asm"
+SilcoonPokedexEntry::    INCLUDE "data/pokemon/dex_entries/silcoon.asm"
+BeautiflyPokedexEntry::  INCLUDE "data/pokemon/dex_entries/beautifly.asm"
+CascoonPokedexEntry::    INCLUDE "data/pokemon/dex_entries/cascoon.asm"
+DustoxPokedexEntry::     INCLUDE "data/pokemon/dex_entries/dustox.asm"
