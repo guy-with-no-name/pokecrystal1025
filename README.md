@@ -4,9 +4,10 @@ This project aims to add all 1025 Pokémon to Pokémon Crystal
 
 ### Features added as of now:
 
-* Pokémon up to #254
+* Pokémon up to #269
 * Physical/Special split
 * Fairy type
+* Unique menu sprites for every Pokémon
 
 ### Sprite credits:
 
